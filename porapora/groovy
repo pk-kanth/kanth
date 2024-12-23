@@ -1,0 +1,6 @@
+// Example Groovy script
+class HelloWorld {
+    static void main(String[] args) {
+        println("Hello, Groovy!")
+    }
+}
