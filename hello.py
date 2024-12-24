@@ -1,4 +1,9 @@
-print("hello iam from chandrakanth")
-print("hello iam go to pg")
-print("1 2 3 4 5 6")
-print("today last day")
+# Python3 program to add two numbers
+num1 = 15
+num2 = 12
+
+# Adding two nos
+sum = num1 + num2
+
+# printing values
+print("Sum of", num1, "and", num2 , "is", sum)
