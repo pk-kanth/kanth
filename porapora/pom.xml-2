@@ -1,10 +1,6 @@
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-    <exclusions>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </exclusion>
-    </exclusions>
-</dependency>
+public class Example {
+    public static void main(String[] args) {
+        System.out.println("Four: " + (2 + 2));
+        System.out.println("But! Twenty-two: " + 2 + 2);
+    }
+}
