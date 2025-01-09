@@ -1,17 +1,23 @@
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("Four: " + (2 + 2));
-        System.out.println("But! Twenty-two: " + 2 + 2);
-    }
-}
+<dependencies>
+    <!-- JUnit for unit testing -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
 
+    <!-- SLF4J for logging -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.30</version>
+    </dependency>
 
-String text = "contains text";
-int wholeNumber = 123;
-double floatingPoint = 3.141592653;
-boolean trueOrFalse = true;
-
-System.out.println("Text variable: " + text);
-System.out.println("Integer variable: " + wholeNumber);
-System.out.println("Floating-point variable: " + floatingPoint);
-System.out.println("Boolean: " + trueOrFalse);
+    <!-- Spring Web for web applications -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>5.3.8</version>
+    </dependency>
+</dependencies>
